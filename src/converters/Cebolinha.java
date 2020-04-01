@@ -1,18 +1,14 @@
 package converters;
 /**
  * A classe Cebolinhas recebe uma frase qualquer e troca as letras 'r' das palavras pela letra 'l'.
- * @author Madson
+ * @author Madson Santos
  */
 public class Cebolinha {
 	
-	/**
-	 * 
-	 */
 	private String frase;
 	
 	
 	Cebolinha(String frase) {
-		//construtor da classe.
 		this.frase = frase;		
 	}
 	
@@ -54,7 +50,6 @@ public class Cebolinha {
 	public String toString() {		
 		frase = trocaLetras();
 		return frase;
-	}
-	
+	}	
 	
 }
